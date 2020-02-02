@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#dodatak::after {
+    content:"-NEW";
+    color: yellow;
+}
+a[href^="https://www.google.com"] {
+    color: green;
+}
+a[target="_blank"] {
+    color: red;
+}
+p[title~="crveni"] {
+    color: red;
+}
+p[title~="plavi"] {
+    color: blue;
+}
+#posebni:hover {
+font-style: italic;
+}
